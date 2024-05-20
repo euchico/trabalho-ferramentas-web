@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>Francisco de Paula - Portfolio Pessoal</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>francisco de paula</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="contrato">
+      <div class="contrato-conteudo">
+        <img class="center" src="img/apresentacao.png" alt="Perfil Francisco de Paula">
+        <p class="centro">Programador Jr., trabalhando como <strong>Full Stack Developer</strong> com especialização no ecossistema C# e Angular.</p>
+        <button class="botao-contrato">Me Contrate</button>
+      </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container sobre-conteudo">
+      <div class="texto-conteudo">
+        <h2>Sobre Mim</h2>
+        <p>Como um entusiasta das artes e programador, vejo a tecnologia como uma forma de ampliar a criatividade humana. Minha jornada na programação é inspirada pela fusão entre lógica algorítmica e expressões artísticas, onde encontro uma rica fonte de inspiração.</p>
+        <p>Ser um programador versátil me permite explorar diferentes cenários e desafios com flexibilidade e adaptabilidade. Sou capaz de abordar problemas de maneiras únicas e encontrar soluções inovadoras.</p>
+        <img src="img/assinatura.png" alt="Assinatura" class="assinatura">
+      </div>
+        
+      <div class="imagem-conteudo">
+        <img src="img/sobre-mim.jpeg" alt="Imagem de destaque Francisco de Paula">
+      </div>
+    </div>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação</h2>
+
+    <div class="container">     
+      <div class="formacao-bloco">
+        <div class="bloco-header">
+          <h3>MXM Sistemas</h3>
+          <span class="data">Atualmente</span>
+        </div>
+        <span class="categoria">Experiência</span>
+        <p>
+          Atualmente, minha principal responsabilidade é a manutenção e realização de pequenas implementações em um sistema ERP, 
+          atuando como Full Stack (.NET e Angular). Além disso, executo correções direcionadas ao levantamento de relatórios em Delphi e 
+          análise de Banco de Dados (Oracle).
+        </p>
+      </div>
+      
+      <div class="formacao-bloco">
+        <div class="bloco-header">
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <span class="data">Atualmente</span>
+        </div>
+        <span class="categoria">Educação</span>
+        <p>
+          Este curso está me proporcionando a construção da base para o desenvolvimento de software, preenchendo as lacunas que ficaram na minha formação em Ciência da Computação. 
+          Além disso, está fortalecendo minha habilidade de buscar conhecimento de forma autônoma. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container portfolio-conteudo">
+      <div class="imagem-conteudo">
+        <a href="https://github.com/euchico" target="_blank"><img src="img/github-logo.png" alt="Logo GitHub"></a>        
+      </div>
+
+      <div class="texto-conteudo">
+        <h2>Portfólio</h2>
+
+        <p>Para ver mais detalhadamente meus projetos, visite meu perfil no GitHub. Lá, você encontrará o código-fonte e documentação dos meus trabalhos, demonstrando minha abordagem técnica e habilidades.</p>
+        <p><a href="https://github.com/euchico" target="_blank">Meu GitHub</a> é a vitrine dos meus projetos, mostrando como combino programação e criatividade para desenvolver soluções inovadoras e funcionais.</p>
+      
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container contact-content">
+        <div class="info">
+            <h2>Contato</h2>
+            <p><strong>Telefone:</strong> (99) 99999-9999</p>
+            <p><strong>Email:</strong> exemplo@dominio.com</p>
+            <p><strong>Redes Sociais:</strong></p>
+            <ul>
+                <li><a href="https://github.com/euchico" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/euchico/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instragram.com/euchicodev" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer id="rodape">
+    <p>&copy; 2024 Francisco de Paula. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
